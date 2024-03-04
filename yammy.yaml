@@ -13,7 +13,7 @@ steps:
     - 'import'
     - '--environment=my-first-airflow'
     - '--location=us-central1'
-    - '--source=./my_dags'
+    - '--source=./dags/'
   dir: 'source'
   timeout: '1600s'  # Adjust the timeout based on your DAG deployment time
 
