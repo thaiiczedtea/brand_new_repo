@@ -39,5 +39,6 @@ dummy_task  # dummy_task has no dependencies
 # )
 #
 # dummy_task >> dummy_task_2  # This would set up a dependency from dummy_task to dummy_task_2
+# ding fries are done
 
 # This is a basic DAG with a single dummy task. You can extend it by adding more tasks and defining their dependencies.
