@@ -27,7 +27,7 @@ dummy_task = DummyOperator(
     dag=dag,
 )
 
-# Set task dependencies
+# Set task dependencie
 dummy_task  # dummy_task has no dependencies cc
 
 # The order of tasks in the list passed to `>>` or `set_downstream` defines the execution order
